@@ -1,0 +1,7 @@
+{
+   "name": "Hide DM Buttons",
+   "author": "eternal",
+   "description": "Hides unnecessary/bloat/useless buttons on the DM list while only leaving the friends button.",
+   "version": "1.0.0",
+   "id": "eternal.hide-dm-buttons"
+}
