@@ -8,7 +8,7 @@ export default class HideDMButtons extends Plugin {
    start(): void {
       const DMsList: Object = getByDisplayName('ConnectedPrivateChannelsList', { default: false });
       Patcher.before(DMsList, 'default', (_, [props]) => {
-         if (props.children) {
+         if (props?.children) {
             props.children = props.children.filter(a => a?.key == 'friends');
          }
       });
