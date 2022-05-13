@@ -1,7 +1,7 @@
 {
-   "name": "Hide DM Buttons",
+   "name": "No Bandwidth Kick",
    "author": "eternal",
-   "description": "Hides unnecessary/bloat/useless buttons on the DM list while only leaving the friends button.",
+   "description": "Stops discord from disconnecting you when you're in a call alone for more than 5 minutes.",
    "version": "1.0.0",
-   "id": "eternal.hide-dm-buttons"
+   "id": "eternal.no-bandwidth-kick"
 }
