@@ -1,0 +1,12 @@
+{
+   "name": "hide-dm-buttons",
+   "version": "1.0.0",
+   "description": "Hides unnecessary/bloat/useless buttons on the DM list while only leaving the friends button.",
+   "main": "index.js",
+   "scripts": {
+      "build": "swc src -d dist --delete-dir-on-start",
+      "package": "rm -rf packer && mkdir packer && cp -r manifest.json packer/manifest.json && cp -r dist packer/dist && asar pack packer packed.asar && rm -rf packer"
+   },
+   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
+   "license": "Unlicensed"
+}
