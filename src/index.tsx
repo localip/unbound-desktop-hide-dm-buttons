@@ -3,8 +3,6 @@ import { findByDisplayName } from '@webpack';
 import Plugin from '@entities/plugin';
 
 export default class extends Plugin {
-   public items = [];
-
    start() {
       const PrivateChannelsList = findByDisplayName('ConnectedPrivateChannelsList', { interop: false });
 
